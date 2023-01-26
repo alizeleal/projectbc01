@@ -1,8 +1,24 @@
+body{
+    background-color: #F9F9F9;
+}
+
 #name{
-    color: palevioletred;
+    color: #6886C5;
 }
 
 #age{
-    color:orchid;
+    color:#6886C5;
+}
+
+
+hr {
+    border-style: dotted none none none;
+    border-color: #FFE0AC;
+    width: 5%;
+    border-width: 10px;
+
+
+
+
 }
 
