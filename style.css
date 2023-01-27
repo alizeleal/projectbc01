@@ -13,7 +13,7 @@ body{
 
 hr {
     border-style: dotted none none none;
-    border-color: #FFE0AC;
+    border-color: #FFACB7;
     width: 5%;
     border-width: 10px;
 
@@ -22,3 +22,29 @@ hr {
 
 }
 
+h2 {
+
+    color: #6886C5;
+}
+
+#mainenemy{
+
+    color: brown;
+}
+
+
+
+    img {
+        border-radius: 50%;
+
+      }
+.container {
+    width: 200px;
+    height: 150px;
+}
+
+/* Resize images */
+.container img {
+    width: 100%;
+    height: auto;
+}
