@@ -65,9 +65,32 @@ img{
 img:hover {
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
-  }
+}
 
 table {
     border-spacing: 10px;
     border-collapse: separate;
 }
+
+.hover_img {
+    position:relative;
+}
+
+.hover_img span {
+    position:absolute;
+    display:none;
+    z-index:99;
+}
+.hover_img:hover span { display:block; }
+
+
+.eternalsm{
+    border-radius: 0%;
+}
+
+
+.eternalsm:hover{
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);
+}
+
