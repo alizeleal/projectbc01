@@ -80,17 +80,29 @@ table {
     position:absolute;
     display:none;
     z-index:99;
+    width: 10%;
 }
 .hover_img:hover span { display:block; }
+
+.hover_img2 span {
+    position:absolute;
+    display:none;
+    z-index:99;
+    width: 5%;
+}
+.hover_img2:hover span { display:block; }
 
 
 .eternalsm{
     border-radius: 0%;
+
+
 }
 
 
 .eternalsm:hover{
         -webkit-transform: scaleX(0);
         transform: scaleX(0);
+        size: 20%;
 }
 
