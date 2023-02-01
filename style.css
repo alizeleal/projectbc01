@@ -1,13 +1,54 @@
+:root{
+        --blue01: #E5EDFC;
+        --blue02: #89AAE7;
+        --blue03: #0CC0EA;
+        --blue04: #1250C4;
+        --blue05: #002F7B;
+
+        --pink01: #F7B0C8;
+        --pink02: #F278A1;
+        --pink03: #E91E63;
+        --pink04: #DE0059;
+        --pink05: #9E003F;
+
+        --green01: #DCEDC8;
+        --green02: #C9EDA2;
+        --green03: #7ED321;
+        --green04: #3B610F;
+        --green05: #004D40;
+
+        --yellow01: #FFEFD6;
+        --yellow02: #FFDA6A;
+        --yellow03: #FFC107;
+        --yellow04: #F09100;
+        --yellow05: #D14900;
+
+        --red01: #FFF5F5;
+        --red02: #F88E86;
+        --red03: #EC584E;
+        --red04: #E91B0C;
+        --red02: #AC001A;
+
+        --neutral01: #FFFFFF;
+        --neutral02: #F2F2F2;
+        --neutral03: #E0E0E0;
+        --neutral04: #999999;
+        --neutral05: #424242;
+        --neutral06: #191919;
+        --neutral07: #000000;
+    }
+
+
 body{
     background-color: #F9F9F9;
 }
 
 #name{
-    color: #6886C5;
+    color: var(--roxo-leve);
 }
 
 #age{
-    color:#6886C5;
+    color:var(--roxo-leve);
 }
 
 
@@ -21,9 +62,8 @@ hr {
 
 
 }
-
 a:hover{
-    background-color: #FFACB7;
+    background-color: var(--azul-bebe);
 }
 
 h2 {
