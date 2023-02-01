@@ -49,16 +49,16 @@ nvm use
         yarn generate ComponentName
         ```
 <br><br>
+   
 
-1.  #### Run Unit Tests<Br>
+4.  #### Run Unit Tests<Br>
    <p>`--to be included--`</p><br>
-
-2. Run Regression Tests<Br>
+5. Run Regression Tests<Br>
 
    <p>`--to be included--`</p><br>
-3. Update Storybook <br>
+6. Update Storybook <br>
       <p>`--to be included--`</p><br>
-4.  After making your changes in the new git branch, add your modified files to git ([How to add, commit, push and go](http://readwrite.com/2013/10/02/github-for-beginners-part-2/)):
+7.  After making your changes in the new git branch, add your modified files to git ([How to add, commit, push and go](http://readwrite.com/2013/10/02/github-for-beginners-part-2/)):
 
     ```sh
     git add path/to/filename.ext
@@ -71,13 +71,13 @@ nvm use
 
     Note: using a `git add .` will automatically add all files. You can run a `git status` to see your changes, but do it before `git add`.<br><br>
 
-5.  Commit your changes using `commitizen`;
+8.  Commit your changes using `commitizen`;
    
     ```sh
     yarn commitizen
     ```
 
-6.  You'll be prompted to fill in any required fields. Your commit messages will be formatted according to the standards defined by project.
+9.  You'll be prompted to fill in any required fields. Your commit messages will be formatted according to the standards defined by project.
     
     - Select the type of change that you're committing *(required)*
     - What is the scope of this change (e.g. component or file name)?
@@ -86,14 +86,14 @@ nvm use
     - Are they any breaking changes? (y/N)
     - Does this change affect any open issues? (y/N)
 
-7.  Push your commits to your Fork:
+10. Push your commits to your Fork:
 
     ```sh
     git push -u origin branch-name
     ```
-8.  Submit a pull request;
-9.  PR Approvation Proccess;
-10. Publication of the package to `npm`.
+11. Submit a pull request;
+12. PR Approvation Proccess;
+13. Publication of the package to `npm`.
 
 
 <br>
