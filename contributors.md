@@ -33,7 +33,7 @@ nvm use
 <a name="newComponent"></a>
 ### Creating a New Component <br><br>
 
-1.  #### Fork the project ([Help Guide to Fork a repository](https://docs.github.com/en/get-started/quickstart/fork-a-repo));<br><br>
+1.  #### Fork the project [Help Guide to Fork a repository](https://docs.github.com/en/get-started/quickstart/fork-a-repo);<br><br>
    Clone the project;<br><br>
 2. Create a branch specific to the issue you are working on:
 
