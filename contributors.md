@@ -58,7 +58,7 @@ nvm use
    <p>`--to be included--`</p><br>
 6. Update Storybook <br>
       <p>`--to be included--`</p><br>
-7.  After making your changes in the new git branch, add your modified files to git ( [How to add, commit, push and go](http://readwrite.com/2013/10/02/github-for-beginners-part-2/) ):
+7.  After making your changes in the new git branch, add your modified files to git ( [How to add, commit, push and go(http://readwrite.com/2013/10/02/github-for-beginners-part-2/) ):
 
     ```sh
     git add path/to/filename.ext
